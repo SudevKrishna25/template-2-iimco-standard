@@ -47,7 +47,7 @@ export default function Home() {
           left: 0,
           width: '100%',
           height: '100%',
-          background: 'linear-gradient(135deg, rgba(0, 91, 150, 0.95) 0%, rgba(0, 140, 140, 0.8) 100%)',
+          background: 'linear-gradient(135deg, rgba(10, 76, 54, 0.97) 0%, rgba(197, 155, 39, 0.85) 100%)',
           zIndex: 1
         }}></div>
 
@@ -124,7 +124,7 @@ export default function Home() {
       </section>
 
       {/* SECTION 3: ABOUT ARASS */}
-      <section style={{ padding: '6rem 0', backgroundColor: '#fff' }}>
+      <section style={{ padding: '6rem 0', backgroundColor: 'var(--background)' }}>
         <div className="container">
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '4rem', alignItems: 'center' }}>
             <motion.div 
@@ -166,7 +166,7 @@ export default function Home() {
                 position: 'relative',
                 overflow: 'hidden'
               }}>
-                <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(45deg, rgba(0,91,150,0.2), rgba(0,140,140,0.2))' }}></div>
+                <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(45deg, rgba(10,76,54,0.2), rgba(197,155,39,0.2))' }}></div>
               </div>
               <div style={{ 
                 position: 'absolute', 

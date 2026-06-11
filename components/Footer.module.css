@@ -1,6 +1,6 @@
 .footer {
-  background-color: #1A202C;
-  color: #E2E8F0;
+  background-color: #0A3C2A;
+  color: #ECEAE4;
   padding-top: 5rem;
   font-family: var(--font-open-sans);
 }
@@ -121,7 +121,7 @@
 }
 
 .bottomBar {
-  background-color: #0F172A;
+  background-color: #062B1E;
   padding: 1.5rem 0;
 }
 

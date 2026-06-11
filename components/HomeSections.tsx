@@ -17,7 +17,7 @@ export default function HomeSections() {
   return (
     <>
       {/* SECTION 5: FEATURED PROGRAMS */}
-      <section style={{ padding: '6rem 0', backgroundColor: '#fff' }}>
+      <section style={{ padding: '6rem 0', backgroundColor: 'var(--background)' }}>
         <div className="container">
           <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
             <h2 style={{ fontFamily: 'var(--font-poppins)', fontSize: '2.5rem', color: 'var(--text-primary)', marginBottom: '1rem' }}>Featured Programs</h2>
@@ -72,7 +72,7 @@ export default function HomeSections() {
             <h2 style={{ fontFamily: 'var(--font-poppins)', fontSize: '3rem', marginBottom: '1.5rem', color: '#fff' }}>Take the Next Step in Your Healthcare Career</h2>
             <p style={{ fontSize: '1.25rem', marginBottom: '2.5rem', color: 'rgba(255,255,255,0.9)' }}>Explore opportunities designed to advance your professional journey.</p>
             <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
-              <Link href="/contact" className="btn-primary" style={{ backgroundColor: 'var(--accent)', color: '#fff' }}>Request Information</Link>
+              <Link href="/contact" className="btn-primary">Request Information</Link>
               <Link href="/apply" className="btn-secondary" style={{ borderColor: '#fff', color: '#fff' }}>Contact Admissions</Link>
             </div>
           </motion.div>
